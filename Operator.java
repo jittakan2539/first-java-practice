@@ -15,5 +15,12 @@ class Operator {
         float resultDivide = (float) num1 / (float) num2;
         System.out.println("This is " + sum + ".");
         System.out.println("This is " + resultDivide + ".");
+
+        //Increment/Decrement
+        num1++;
+        System.out.println(num1);
+        num1--;
+        System.out.println(num1);
+
     }
 }
