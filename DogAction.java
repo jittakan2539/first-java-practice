@@ -15,6 +15,10 @@ class Dog {
     void fetch(String item) {
         System.out.println(name + " goes fetch " + item + " for me.");
     }
+
+    int countName() {
+        return name.length();
+    }
 }
 
 class DogAction {
@@ -27,5 +31,10 @@ class DogAction {
         myDog.greet();
         myDog.bark();
         myDog.fetch("a stick");
+
+        //Can assign value from return
+        int count = myDog.countName();
+        System.out.println(myDog.countName());
+        System.out.println("My dog's name is " + count + " long.");
     }
 }
