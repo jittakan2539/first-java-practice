@@ -14,6 +14,17 @@ class Control {
             System.out.println("The number is less than 10.");
         }
 
+        switch (num1) {
+            case 1:
+                System.out.println("You are first.");
+                break;
+            case 2:
+                System.out.println("You are second.");
+                break;
+            default:
+                System.out.println("You are later.");
+        }
+
         scanner.close();
     }
 }
